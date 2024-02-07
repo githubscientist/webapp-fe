@@ -1,9 +1,16 @@
-h3 {
-    color: green;
-    text-align: center;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
+.header > h3 {
+    font-size: 64px;
+}
+
+.question-brief {
+    padding-left: 40px;
+    margin-right: 75px;
+    margin-top: 20px;
+    width: 740px;
 }
